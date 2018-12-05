@@ -43,7 +43,6 @@ public class AutoLoginFilter implements Filter {
 					|| "/login".equalsIgnoreCase(path) || "/regist"
 						.equalsIgnoreCase(path))) {
 				// 符合条件的是可以进行自动登录操作的.
-
 				// 2.3 得到cookie，从cookie中获取username,password
 				Cookie cookie = CookieUtils.findCookieByName(req.getCookies(),
 						"autologin");
