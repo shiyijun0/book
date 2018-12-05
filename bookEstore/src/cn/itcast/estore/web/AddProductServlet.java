@@ -36,6 +36,7 @@ public class AddProductServlet extends HttpServlet {
 
 		// 1.封装数据到javaBean--先将数据封装到map集合中.
 		Map<String, String[]> map = new HashMap<String, String[]>();
+		
 
 		// 2.创建DiskFileItemFactory
 		DiskFileItemFactory factory = new DiskFileItemFactory();
